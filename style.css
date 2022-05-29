@@ -5,26 +5,26 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.information-box {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.information-box 
+.header 
 img {
   width: 100%;
 }
 
-.information-box 
+.header 
 .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.information-box { 
+.header { 
   text-align: center;
 }
 
@@ -105,9 +105,8 @@ input[type=text]:focus {
 }
 
 /* New Task */
-label[for=new-task] {
-  display: block;
-  margin: 0 0 20px;
+.task-row-wrapper{
+  margin: 20px 0 0;
 }
 
 #new-task {
